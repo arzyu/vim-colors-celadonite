@@ -5,53 +5,64 @@ if exists("syntax_on")
 endif
 let colors_name = "celatonite"
 
-hi Normal guifg=#c0c0c0 guibg=#303030 ctermfg=lightgray ctermbg=black
-hi ErrorMsg guifg=#000000 guibg=#00ffff
-hi Visual guifg=#339933 guibg=#f0f0f0 gui=reverse
-hi Todo guifg=#ffffff guibg=#cc3300
-hi Search guifg=#eeeeee guibg=#cc3300
-hi IncSearch guifg=#eeeeee guibg=#cc3300
+hi Normal guifg=#c0c0c0 guibg=#303030 ctermfg=250 ctermbg=236
+hi ErrorMsg guifg=#ff0000 guibg=NONE ctermfg=196 ctermbg=NONE
+hi Visual gui=reverse guifg=#30663f guibg=#cccccc cterm=reverse ctermfg=29 ctermbg=252
+hi Todo gui=underline guifg=#ff3300 guibg=NONE cterm=underline ctermfg=9 ctermbg=NONE
+hi Search guifg=#eeeeee guibg=#cc3300 ctermfg=255 ctermbg=166
+hi IncSearch guifg=#cc3300 guibg=#eeeeee ctermfg=166 ctermbg=255
 
 hi NonText guifg=#3f3f3f
 hi SpecialKey guifg=#3f3f3f
 hi Directory guifg=cyan
-hi Title guifg=magenta gui=none
+hi Title gui=NONE guifg=magenta
 hi WarningMsg guifg=red
 hi WildMenu guifg=yellow guibg=black
 hi ModeMsg guifg=#22cce2
-hi Question guifg=green gui=none
+hi Question gui=NONE guifg=green
 
-hi StatusLine guifg=#cccccc guibg=#515151 gui=none
-hi StatusLineNC guifg=#9f9f9f guibg=#515151 gui=none
+hi StatusLine gui=NONE guifg=#cccccc guibg=#515151
+hi StatusLineNC gui=NONE guifg=#9f9f9f guibg=#515151
 hi VertSplit guifg=#515151 guibg=#515151 ctermfg=gray ctermbg=gray
 
 hi Folded guifg=#999999 guibg=#393939
 hi FoldColumn guifg=#606060 guibg=bg gui=reverse
-hi SignColumn guibg=#303030 ctermbg=black
-hi LineNr guifg=#606060 guibg=#333333
+hi SignColumn guibg=NONE ctermbg=NONE
+hi LineNr guifg=#606060 guibg=#333333 ctermfg=245 ctermbg=237
 
-hi Cursor guifg=black guibg=#00ff00
-hi CursorLine guibg=#394830 cterm=none
-hi CursorLineNr guifg=#999999 guibg=#393939
+hi Cursor guifg=black guibg=#00ff00 ctermfg=0 ctermbg=10
+hi CursorLine guibg=#363636 cterm=NONE ctermbg=237
+hi CursorLineNr guifg=#999999 guibg=#363f30 ctermfg=250 ctermbg=238
 
-hi DiffAdd guibg=#303f30 ctermbg=bg
-hi DiffChange guibg=#3f3f30 ctermbg=bg
-hi DiffDelete guifg=fg guibg=#303030 ctermfg=fg ctermbg=bg
-hi DiffText guibg=#603030 ctermbg=brown
+" diff
+hi DiffAdd guibg=#303930 ctermbg=bg
+hi DiffChange gui=NONE guibg=#393930 ctermbg=bg
+hi DiffDelete guifg=NONE guibg=NONE ctermfg=NONE ctermbg=NONE
+hi DiffText guibg=#603030 ctermbg=95
 
-hi Comment guifg=#ff3300
+hi Comment guifg=#ff3300 ctermfg=196
 hi Constant guifg=#ffa0a0
-hi Special guifg=Orange gui=none
+hi Special guifg=Orange
 hi Identifier guifg=#40ffff
-hi Statement guifg=#ffff60 gui=none
-hi PreProc guifg=#ff80ff gui=none
-hi type guifg=#60ff60 gui=none
+hi Statement guifg=#ffff60
+hi PreProc guifg=#ff80ff
+hi type guifg=#60ff60
 hi Ignore guifg=bg
-hi MatchParen guifg=#ffffff guibg=#cc00cc ctermfg=white ctermbg=magenta
+hi MatchParen guifg=#ffffff guibg=#cc00cc ctermfg=15 ctermbg=164
 
-hi Pmenu guibg=#484848 ctermbg=darkgray
-hi PmenuSel guibg=#339933 ctermfg=white ctermbg=darkgreen
-hi PmenuSbar guibg=#909090 ctermbg=gray
-hi PmenuThumb guibg=#666666 ctermbg=white
+" menu
+hi Pmenu guibg=#485448 ctermbg=65
+hi PmenuSel guibg=#607230 ctermfg=15 ctermbg=71
+hi PmenuSbar guibg=#909090 ctermbg=246
+hi PmenuThumb guibg=#666666 ctermbg=241
 
-highlight SyntasticErrorSign guifg=#ff3300 ctermfg=red
+" syntastic
+hi SyntasticErrorSign guifg=#ff3300 ctermfg=9
+hi SyntasticWarningSign guifg=#ff9900 ctermfg=208
+
+" gitgutter
+hi GitGutterAdd guifg=#60ff60 ctermfg=10
+hi GitGutterChange guifg=#ffcc00 ctermfg=220
+hi GitGutterDelete guifg=#ff0000 ctermfg=9
+hi GitGutterChangeDelete guifg=#ff6600 ctermfg=202
+
