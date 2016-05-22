@@ -23,7 +23,7 @@ hi Question gui=NONE guifg=green
 
 hi StatusLine gui=NONE guifg=#cccccc guibg=#515151
 hi StatusLineNC gui=NONE guifg=#9f9f9f guibg=#515151
-hi VertSplit guifg=#515151 guibg=#515151 ctermfg=gray ctermbg=gray
+hi VertSplit guifg=#515151 guibg=#515151 ctermfg=239 ctermbg=239
 
 hi Folded guifg=#999999 guibg=#393939 ctermfg=245 ctermbg=238
 hi SignColumn guibg=NONE ctermbg=NONE
