@@ -25,8 +25,7 @@ hi StatusLine gui=NONE guifg=#cccccc guibg=#515151
 hi StatusLineNC gui=NONE guifg=#9f9f9f guibg=#515151
 hi VertSplit guifg=#515151 guibg=#515151 ctermfg=gray ctermbg=gray
 
-hi Folded guifg=#999999 guibg=#393939
-hi FoldColumn guifg=#606060 guibg=bg gui=reverse
+hi Folded guifg=#999999 guibg=#393939 ctermfg=245 ctermbg=238
 hi SignColumn guibg=NONE ctermbg=NONE
 hi LineNr guifg=#606060 guibg=#333333 ctermfg=245 ctermbg=237
 
