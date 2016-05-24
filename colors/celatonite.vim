@@ -12,14 +12,14 @@ hi Todo gui=underline guifg=#ff3300 guibg=NONE cterm=underline ctermfg=9 ctermbg
 hi Search guifg=#eeeeee guibg=#cc3300 ctermfg=255 ctermbg=166
 hi IncSearch guifg=#cc3300 guibg=#eeeeee ctermfg=166 ctermbg=255
 
-hi NonText guifg=#3f3f3f
-hi SpecialKey guifg=#3f3f3f
-hi Directory guifg=cyan
-hi Title gui=NONE guifg=magenta
-hi WarningMsg guifg=red
-hi WildMenu guifg=yellow guibg=black
-hi ModeMsg guifg=#22cce2
-hi Question gui=NONE guifg=green
+hi NonText guifg=#3f3f3f ctermfg=237
+hi SpecialKey guifg=#3f3f3f ctermfg=237
+hi Directory guifg=#afffff ctermfg=159
+hi Title gui=NONE guifg=#ffd7ff ctermfg=225
+hi WarningMsg guifg=#ffd7d7 ctermfg=224
+hi WildMenu guifg=#000000 guibg=#ffff00 ctermfg=0 ctermbg=11
+hi ModeMsg guifg=#5fd7ff ctermfg=81
+hi Question gui=NONE guifg=#87ffaf ctermfg=121
 
 hi StatusLine gui=NONE guifg=#cccccc guibg=#515151
 hi StatusLineNC gui=NONE guifg=#9f9f9f guibg=#515151
@@ -40,13 +40,13 @@ hi DiffDelete guifg=NONE guibg=NONE ctermfg=NONE ctermbg=NONE
 hi DiffText guibg=#603030 ctermbg=95
 
 hi Comment guifg=#ff3300 ctermfg=196
-hi Constant guifg=#ffa0a0
-hi Special guifg=Orange
-hi Identifier guifg=#40ffff
-hi Statement guifg=#ffff60
-hi PreProc guifg=#ff80ff
-hi type guifg=#60ff60
-hi Ignore guifg=bg
+hi Constant guifg=#ffafaf ctermfg=217
+hi Special guifg=#ffaf00 ctermfg=214
+hi Identifier guifg=#5fffff ctermfg=87
+hi Statement guifg=#ffff5f ctermfg=227
+hi PreProc guifg=#ff87ff ctermfg=213
+hi type guifg=#5fff5f ctermfg=83
+hi Ignore guifg=bg ctermbg=bg
 hi MatchParen guifg=#ffffff guibg=#cc00cc ctermfg=15 ctermbg=164
 
 " menu
