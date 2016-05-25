@@ -3,7 +3,7 @@ hi clear
 if exists("syntax_on")
 	syntax reset
 endif
-let colors_name = "celatonite"
+let colors_name = "celadonite"
 
 hi Normal guifg=#c0c0c0 guibg=#303030 ctermfg=250 ctermbg=236
 hi ErrorMsg guifg=#ff0000 guibg=NONE ctermfg=196 ctermbg=NONE
