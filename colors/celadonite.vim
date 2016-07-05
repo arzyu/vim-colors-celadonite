@@ -6,9 +6,10 @@ endif
 let colors_name = "celadonite"
 
 hi Normal guifg=#c0c0c0 guibg=#303030 ctermfg=250 ctermbg=236
+hi Error guifg=#ff3300 guibg=NONE ctermfg=196 ctermbg=NONE
 hi ErrorMsg guifg=#ff0000 guibg=NONE ctermfg=196 ctermbg=NONE
 hi Visual gui=reverse guifg=#30663f guibg=#cccccc cterm=reverse ctermfg=29 ctermbg=252
-hi Todo gui=underline guifg=#ff3300 guibg=NONE cterm=underline ctermfg=9 ctermbg=NONE
+hi Todo gui=underline guifg=#ff3300 guibg=NONE cterm=underline ctermfg=196 ctermbg=NONE
 hi Search guifg=#eeeeee guibg=#cc3300 ctermfg=255 ctermbg=166
 hi IncSearch guifg=#cc3300 guibg=#eeeeee ctermfg=166 ctermbg=255
 
@@ -20,6 +21,7 @@ hi WarningMsg guifg=#ffd7d7 ctermfg=224
 hi WildMenu guifg=#000000 guibg=#ffff00 ctermfg=0 ctermbg=11
 hi ModeMsg guifg=#5fd7ff ctermfg=81
 hi Question gui=NONE guifg=#87ffaf ctermfg=121
+hi SpellBad gui=undercurl guisp=#ff3300 ctermfg=196 ctermbg=NONE
 
 hi StatusLine gui=NONE guifg=#cccccc guibg=#515151
 hi StatusLineNC gui=NONE guifg=#9f9f9f guibg=#515151
@@ -46,7 +48,7 @@ hi Identifier guifg=#5fffff ctermfg=87
 hi Statement guifg=#ffff5f ctermfg=227
 hi PreProc guifg=#ff87ff ctermfg=213
 hi type guifg=#5fff5f ctermfg=83
-hi Ignore guifg=bg ctermbg=bg
+hi Ignore guifg=bg ctermfg=bg
 hi MatchParen guifg=#ffffff guibg=#cc00cc ctermfg=15 ctermbg=164
 
 " menu
@@ -56,12 +58,12 @@ hi PmenuSbar guibg=#909090 ctermbg=246
 hi PmenuThumb guibg=#666666 ctermbg=241
 
 " syntastic
-hi SyntasticErrorSign guifg=#ff3300 ctermfg=9
+hi SyntasticErrorSign guifg=#ff3300 ctermfg=196
 hi SyntasticWarningSign guifg=#ff9900 ctermfg=208
 
 " gitgutter
 hi GitGutterAdd guifg=#60ff60 ctermfg=10
 hi GitGutterChange guifg=#ffcc00 ctermfg=220
-hi GitGutterDelete guifg=#ff0000 ctermfg=9
+hi GitGutterDelete guifg=#ff0000 ctermfg=196
 hi GitGutterChangeDelete guifg=#ff6600 ctermfg=202
 
