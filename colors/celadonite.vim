@@ -23,8 +23,8 @@ hi ModeMsg guifg=#5fd7ff ctermfg=81
 hi Question gui=NONE guifg=#87ffaf ctermfg=121
 hi SpellBad gui=undercurl guisp=#ff3300 ctermfg=196 ctermbg=NONE
 
-hi StatusLine gui=NONE guifg=#cccccc guibg=#515151
-hi StatusLineNC gui=NONE guifg=#9f9f9f guibg=#515151
+hi StatusLine gui=NONE guifg=#cccccc guibg=#515151 cterm=NONE ctermfg=252 ctermbg=239
+hi StatusLineNC gui=NONE guifg=#9f9f9f guibg=#515151 cterm=NONE ctermfg=247 ctermbg=239
 hi VertSplit guifg=#515151 guibg=#515151 ctermfg=239 ctermbg=239
 
 hi Folded guifg=#999999 guibg=#393939 ctermfg=245 ctermbg=238
