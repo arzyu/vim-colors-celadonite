@@ -28,6 +28,7 @@ hi StatusLineNC gui=NONE guifg=#9f9f9f guibg=#515151 cterm=NONE ctermfg=247 cter
 hi VertSplit guifg=#515151 guibg=#515151 ctermfg=239 ctermbg=239
 
 hi Folded guifg=#999999 guibg=#393939 ctermfg=245 ctermbg=238
+hi FoldColumn guifg=#9f9f9f guibg=#3f3f3f ctermfg=247 ctermbg=238
 hi SignColumn guibg=NONE ctermbg=NONE
 hi LineNr guifg=#606060 guibg=#333333 ctermfg=245 ctermbg=237
 
@@ -36,8 +37,8 @@ hi CursorLine guibg=#363636 cterm=NONE ctermbg=237
 hi CursorLineNr guifg=#999999 guibg=#363f30 ctermfg=250 ctermbg=238
 
 " diff
-hi DiffAdd guibg=#303930 ctermbg=bg
-hi DiffChange gui=NONE guibg=#393930 ctermbg=bg
+hi DiffAdd guibg=#303930 ctermbg=238
+hi DiffChange guibg=#393930 ctermbg=236
 hi DiffDelete guifg=NONE guibg=NONE ctermfg=NONE ctermbg=NONE
 hi DiffText guibg=#603030 ctermbg=95
 
@@ -57,11 +58,11 @@ hi PmenuSel guibg=#607230 ctermfg=15 ctermbg=71
 hi PmenuSbar guibg=#909090 ctermbg=246
 hi PmenuThumb guibg=#666666 ctermbg=241
 
-" syntastic
+" vim plugin: syntastic
 hi SyntasticErrorSign guifg=#ff3300 ctermfg=196
 hi SyntasticWarningSign guifg=#ff9900 ctermfg=208
 
-" gitgutter
+" vim plugin: gitgutter
 hi GitGutterAdd guifg=#60ff60 ctermfg=10
 hi GitGutterChange guifg=#ffcc00 ctermfg=220
 hi GitGutterDelete guifg=#ff0000 ctermfg=196
